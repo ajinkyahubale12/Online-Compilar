@@ -1,0 +1,16 @@
+$breakpoint: 768px;
+// Write the SCSS code within a media query
+
+.home {
+  display: grid;
+  grid-template-columns: 10vw 45vw 45vw;
+  color: #ffffff;
+  // overflow: scroll;
+}
+
+@media (max-width: $breakpoint) {
+  // Your styles for the specified breakpoint
+  .home {
+    grid-template-columns: 15vw 85vw;
+  }
+}
